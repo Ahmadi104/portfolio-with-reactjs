@@ -1,16 +1,20 @@
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 
 function App() {
   return (
-    <>
+    <div className="pt-16">
       <Navbar />
-      <div>
-        <h1 className=" text-center text-3xl font-bold text-blue-600 mt-10">
-          My Portfolio
-        </h1>
-        <p className="text-center">Coming son....</p>
-      </div>
-    </>
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 
