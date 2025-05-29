@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="bg-gray-100 py-12 px-6 md:px-16">
+    <div className="bg-gray-800 py-12 px-6 md:px-16 flex">
       <section
         id="contact"
         className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8"
@@ -14,6 +14,7 @@ function Contact() {
           Feel free to reach out to me for collaborations or just a friendly
           chat!
         </p>
+
         <form className="space-y-6">
           <div>
             <label

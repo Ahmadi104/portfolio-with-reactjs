@@ -4,13 +4,13 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-12 bg-gray-300 px-6 md:px-16"
+      className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-12 bg-gray-800 px-6 md:px-16"
     >
       <div className="max-w-xl text-center md:text-left">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-          Hi,I'm <span className="text-blue-900">Ezatullah</span>{" "}
+        <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          Hi,I'm <span className="text-blue-500">Ezatullah</span>{" "}
         </h1>
-        <p className="text-lg md:text-xl text-gray-600 mb-8">
+        <p className="text-lg md:text-xl text-gray-300 mb-8">
           I’m a passionate front-end developer who loves turning ideas into
           beautiful and responsive websites. I specialize in building modern
           user interfaces with React.js and Tailwind CSS, focusing on clean
